@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: hyperlane-relayer
+    env: docker
+    plan: starter
+    autoDeploy: true
+    region: oregon
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: HYP_KEY
+        value: <isi-key-anda>

@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../schema.json
+chainId: 5115
+displayName: Citreatestnet
+domainId: 5115
+isTestnet: true
+name: citreatestnet
+nativeToken:
+  decimals: 8
+  name: citrea bitcoin
+  symbol: cBTC
+protocol: ethereum
+rpcUrls:
+  - http: https://rpc.testnet.citrea.xyz
+technicalStack: other

@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../schema.json
+chainId: 1114
+displayName: Coretestnet
+domainId: 1114
+isTestnet: true
+name: coretestnet
+nativeToken:
+  decimals: 18
+  name: Core
+  symbol: tCORE2
+protocol: ethereum
+rpcUrls:
+  - http: https://rpc.test2.btcs.network
+technicalStack: other
