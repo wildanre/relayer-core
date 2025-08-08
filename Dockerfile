@@ -13,8 +13,6 @@ RUN npm install -g @hyperlane-xyz/cli
 # Copy konfigurasi dan chain data
 COPY chains/ ./chains/
 COPY configs/ ./configs/
-COPY deployments/ ./deployments/
-COPY relayer-cache.json ./relayer-cache.json
 
 # Create start script
 COPY start.sh /start.sh

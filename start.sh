@@ -10,7 +10,7 @@ if [ -z "$HYP_KEY" ]; then
 fi
 
 echo "Starting Hyperlane Relayer..."
-echo "Chains: etherlinktestnet,arbitrumsepolia,basesepolia"
+echo "Chains: citreatestnet,coretestnet"
 
 # Set chain configuration paths
 export HYP_CHAINS=/app/chains
